@@ -1,0 +1,287 @@
+{
+    "products": [
+        {
+            "code": "1",
+            "name": "Kinder Buenoe <br> קינדר בואנו ",
+            "price": 50,
+            "image": "/Prouducts/img/קינדר-בואנו-1024x1024.jpg",
+            "category": "Ice Cream גלידות"
+        },
+        {
+            "code": "2",
+            "name": "Oreo cookie cream <br> קרם עוגיות אוריאו ",
+            "price": 50,
+            "image": "/Prouducts/img/קרם-עוגיות-אוריאו-1024x1024.jpg",
+            "category": "Ice Cream גלידות"
+        },
+        {
+            "code": "3",
+            "name": "Ferrero Rocher <br> פררו רושה ",
+            "price": 50,
+            "image": "/Prouducts/img/פררו-רושה-1024x1024.jpg",
+            "category": "Ice Cream גלידות"
+        },
+        {
+            "code": "4",
+            "name": " Banana & Strawberry <br> תות-בננה ",
+            "price": 56,
+            "image": "/Prouducts/img/תות-בננה-2-1024x1024.jpg",
+            "category": "Ice Cream גלידות"
+        },
+        {
+            "code": "5",
+            "name": "Lotus cookie cream <br> קרם עוגיות לוטוס ",
+            "price": 47,
+            "image": "/Prouducts/img/קרם-עוגיות-לוטוס-1024x1024.jpg",
+            "category": "Ice Cream גלידות"
+        },
+        {
+            "code": "6",
+            "name": "New York cheesecake <br> עוגת גבינה ניו יורקית ",
+            "price": 50,
+            "image": "/Prouducts/img/עוגת-גבינה-ניו-יורקית-1024x1024.jpg",
+            "category": "Ice Cream גלידות"
+        },
+       
+     
+        {
+            "code": "7",
+            "name": "Pistachio <br> פיסטוק",
+            "price": 7,
+            "image": "/Prouducts/img/פיסטוק-1024x1024.jpg",
+            "category": "Ice Cream גלידות"
+        },
+        {
+            "code": "8",
+            "name": "Caramel pretzel <br> קרמל פרעצל",
+            "price": 7,
+            "image": "/Prouducts/img/קרמל-פרעצל-1024x1024.jpg",
+            "category": "Ice Cream גלידות"
+        },
+        {
+            "code": "9",
+            "name": "Dulce de leche <br> ריבת חלב",
+            "price": 7,
+            "image": "/Prouducts/img/ריבת-חלב-1024x1024.jpg",
+            "category": "Ice Cream גלידות"
+        },
+        {
+            "code": "10",
+            "name": "Belgian chocolate <br> שוקולד בלגי",
+            "price": 34,
+            "image": "/Prouducts/img/שוקולד-בלגי-1024x1024.jpg",
+            "category": "Ice Cream גלידות"
+        },
+        {
+            "code": "11",
+            "name": "Triple chocolate <br> טריפל שוקולד ",
+            "price": 34,
+            "image": "/Prouducts/img/טריפל-שוקולד-1024x1024.jpg",
+            "category": "Ice Cream גלידות"
+        },
+        {
+            "code": "12",
+            "name": "Chocolate pretzels <br> שוקולד בייגלה",
+            "price": 34,
+            "image": "/Prouducts/img/שוקולד-בייגלה-1024x1024.jpg",
+            "category": "Ice Cream גלידות"
+        },
+        
+        {
+            "code": "13",
+            "name": "Raisin rum <br> רום צימוקים ",
+            "price": 50,
+            "image": "/Prouducts/img/רום-צימוקים-1024x1024.jpg",
+            "category": "Ice Cream גלידות"
+        },
+        {
+            "code": "14",
+            "name": "Peanut butter and brownies <br> חמאת בוטנים ובראוניז",
+            "price": 50,
+            "image": "/Prouducts/img/חמאת-בוטנים-ובראוניז-2-1024x1024.jpg",
+            "category": "Ice Cream גלידות"
+        },
+        {
+            "code": "15",
+            "name": "Marshmallow <br> מרשמלו ",
+            "price": 50,
+            "image": "/Prouducts/img/מרשמלו-1024x1024.jpg",
+            "category": "Ice Cream גלידות"
+        },
+        {
+            "code": "16",
+            "name": "Chinese pecan <br> פקאן סיני ",
+            "price": 50,
+            "image": "/Prouducts/img/פקאן-סיני-1024x1024.jpg",
+            "category": "Ice Cream גלידות"
+        },
+        {
+            "code": "17",
+            "name": "Raffaello <br> רפאלו ",
+            "price": 50,
+            "image": "/Prouducts/img/רפאלו-1024x1024.jpg",
+            "category": "Ice Cream גלידות"
+        },
+        {
+            "code": "18",
+            "name": "Mint Chip <br> מנטה צ׳יפ ",
+            "price": 50,
+            "image": "/Prouducts/img/מנטה-צ׳יפ-1024x1024.jpg",
+            "category": "Ice Cream גלידות"
+        },
+        {
+            "code": "19",
+            "name": "Signature iced coffee <br> אייס קצפת",
+            "price": 7,
+            "image": "/Prouducts/img/אייס-קצפת-בינוני-1024x1024.jpg",
+            "category": "Iced Drinks אייסים"
+        },
+        {
+            "code": "20",
+            "name": "Pecan iced coffee  <br> אייס פקאן ",
+            "price": 7,
+            "image": "/Prouducts/img/גרניטה-פקאן-בינוני-1024x1024.jpg",
+            "category": "Iced Drinks אייסים"
+        },
+        {
+            "code": "21",
+            "name": "Cappuccino iced coffee <br> אייס קפוצ׳ינו ",
+            "price": 7,
+            "image": "/Prouducts/img/אייס-קפוצ׳ינו-בינוני-1024x1024.jpg",
+            "category": "Iced Drinks אייסים"
+        },
+        {
+            "code": "22",
+            "name": "Cold coffee <br> קפה קר",
+            "price": 7,
+            "image": "/Prouducts/img/קפה-קר-בינוני-1024x1024.jpg",
+            "category": "Iced Drinks אייסים"
+        },
+        {
+            "code": "23",
+            "name": "Fruit shake <br> שייק פירות",
+            "price": 7,
+            "image": "/Prouducts/img/שייק-פירות-1024x1024.jpg",
+            "category": "Iced Drinks אייסים"
+        },
+        {
+            "code": "24",
+            "name": " Milkshakes <br> מילקשייקים ",
+            "price": 7,
+            "image": "/Prouducts/img/מילקשייקים-1024x1024.jpg",
+            "category": "Iced Drinks אייסים"
+        },
+        {
+            "code": "25",
+            "name": "French crepes <br> קרפ צרפתי ",
+            "price": 7,
+            "image": "/Prouducts/img/קרפ-צרפתי-1024x1024.jpg",
+            "category": "Hot Desserts קינוחים חמים"
+        },
+        {
+            "code": "26",
+            "name": "Belgian waffle <br> וופל בלגי ",
+            "price": 7,
+            "image": "/Prouducts/img/וופל-בלגי-1024x1024.jpg",
+            "category": "Hot Desserts קינוחים חמים"
+        },
+        {
+            "code": "27",
+            "name": "Cappuccino <br> קפוצ׳ינו ",
+            "price": 23,
+            "image": "/Prouducts/img/קפוצ׳ינו-גדול-1024x1024.jpg",
+            "category": "Hot Drinks שתייה חמה"
+        },
+        {
+            "code": "28",
+            "name": "Cappuccino <br> קפה הפוך ",
+            "price": 25,
+            "image": "/Prouducts/img/הפוך-קטן-זכוכית-1024x1024.jpg",
+            "category": "Hot Drinks שתייה חמה"
+        },
+        {
+            "code": "29",
+            "name": "Affogato <br> אפוגטו ",
+            "price": 25,
+            "image": "/Prouducts/img/אפוגטו-1024x1024.jpg",
+            "category": "Hot Drinks שתייה חמה"
+        },
+        {
+            "code": "30",
+            "name": "Salep <br> סחלב  ",
+            "price": 25,
+            "image": "/Prouducts/img/סחלב-1024x1024.jpg",
+            "category": "Hot Drinks שתייה חמה"
+        },
+        {
+            "code": "31",
+            "name": "Chai latte <br> צ׳אי לאטה  ",
+            "price": 29,
+            "image": "/Prouducts/img/צ׳אי-לאטה-1024x1024.jpg",
+            "category": "Hot Drinks שתייה חמה"
+        },
+        {
+            "code": "32",
+            "name": "Hot chocolate <br> שוקוצ׳ינו ",
+            "price": 25,
+            "image": "/Prouducts/img/שוקוצ׳ינו-1024x1024.jpg",
+            "category": "Hot Drinks שתייה חמה"
+        },
+        {
+            "code": "33",
+            "name": "Hot chocolate <br> שוקו חם עם מקופלת ",
+            "price": 35,
+            "image": "/Prouducts/img/שוקו-חם-עם-מקופלת-1024x1024.jpg",
+            "category": "Hot Drinks שתייה חמה"
+        },
+        {
+            "code": "34",
+            "name": "Instant coffee <br> נס על חלב ",
+            "price": 25,
+            "image": "/Prouducts/img/נס-על-חלב-קטן-זכוכית-1024x1024.jpg",
+            "category": "Hot Drinks שתייה חמה"
+        },
+        {
+            "code": "35",
+            "name": "Hot cider <br> סיידר חם ",
+            "price": 15,
+            "image": "/Prouducts/img/סיידר-חם-1024x1024.jpg",
+            "category": "Hot Drinks שתייה חמה"
+        },
+        {
+            "code": "36",
+            "name": "Flavored tea <br> תה בטעמים ",
+            "price": 15,
+            "image": "/Prouducts/img/תה-בטעמים-1024x1024.jpg",
+            "category": "Hot Drinks שתייה חמה"
+        },
+        {
+            "code": "37",
+            "name": "Espresso <br> אספרסו",
+            "price": 25,
+            "image": "/Prouducts/img/אספרסו-1024x1024.jpg",
+            "category": "Hot Drinks שתייה חמה"
+        },
+        {
+            "code": "38",
+            "name": "Americano <br> אמריקנו ",
+            "price": 25,
+            "image": "/Prouducts/img/אמריקנו-1024x1024.jpg",
+            "category": "Hot Drinks שתייה חמה"
+        },
+        {
+            "code": "39",
+            "name": "Frozen yogurt <br> פרוזן יוגורט ",
+            "price": 25,
+            "image": "/Prouducts/img/פרוזן-יוגורט-1024x1024 (1).jpg",
+            "category": "Yogurt יוגורט"
+        },
+        {
+            "code": "40",
+            "name": "Yogurt <br> יוגורט טבעי ",
+            "price": 25,
+            "image": "/Prouducts/img/יוגורט-טבעי-1024x1024 (1).jpg",
+            "category": "Yogurt יוגורט"
+        }
+    ]
+}

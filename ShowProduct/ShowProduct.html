@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ShowProduct</title>
+    <link rel="stylesheet" href="/Header/futer/style.css">
+    <link rel="stylesheet" href="./ShowProduct.css">
+    
+    <link
+      href="https://cdn.jsdelivr.net/npm/@sweetalert2/theme-dark@4/dark.css"
+      rel="stylesheet"
+    />
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11/dist/sweetalert2.min.js"></script>
+</head>
+
+<body>
+    <button class="buttonBackToShop">
+      <svg viewBox="0 0 24 24" class="arr-2" xmlns="http://www.w3.org/2000/svg">
+        <path
+          d="M16.1716 10.9999L10.8076 5.63589L12.2218 4.22168L20 11.9999L12.2218 19.778L10.8076 18.3638L16.1716 12.9999H4V10.9999H16.1716Z"
+        ></path>
+      </svg>
+      <span class="text">חזרה לחנות</span>
+      <span class="circle"></span>
+      <svg viewBox="0 0 24 24" class="arr-1" xmlns="http://www.w3.org/2000/svg">
+        <path
+          d="M16.1716 10.9999L10.8076 5.63589L12.2218 4.22168L20 11.9999L12.2218 19.778L10.8076 18.3638L16.1716 12.9999H4V10.9999H16.1716Z"
+        ></path>
+      </svg>
+    </button>
+    
+    <div id="Header"> </div>
+    <div id="sugest">
+        <h2>שלום <span id="user_name"></span></h2>
+    </div>
+    <div id="overlay" class="overlay">
+        <div id="cart" class="cart">
+        </div>
+    </div>
+
+    
+    <div id="containerChoosed">
+        <div id="wantimg">
+        </div>
+
+
+        <div class="options">
+            <div class="Conteiner">
+                <h2>בחר את הרטבים שלך:</h2>
+                <label><input type="checkbox" class="sauce" value="רוטב שוקולד אגוזים">רוטב שוקולד אגוזים</label><br>
+                <label><input type="checkbox" class="sauce" value="רוטב שוקולד לבן">רוטב שוקולד לבן</label><br>
+                <label><input type="checkbox" class="sauce" value="רוטב אוריאו לבן">רוטב אוריאו לבן</label><br>
+                <label><input type="checkbox" class="sauce" value="רוטב בייגלה מלוח">רוטב בייגלה מלוח</label><br>
+                <label><input type="checkbox" class="sauce" value="רוטב פיסטוק שוקולד לבן">רוטב פיסטוק שוקולד
+                    לבן</label><br>
+                <label><input type="checkbox" class="sauce" value="ללא רטבים">ללא רטבים</label><br>
+            </div>
+            <div class="Conteiner">
+                <h2>בחר את התוספות שלך:</h2>
+                <label><input type="checkbox" class="topping" value="קצפת">קצפת</label><br>
+                <label><input type="checkbox" class="topping" value="סוכריות צבעוניות">סוכריות צבעוניות</label><br>
+                <label><input type="checkbox" class="topping" value="סוכריות חומות">סוכריות חומות</label><br>
+                <label><input type="checkbox" class="topping" value="ריבת תות">ריבת תות</label><br>
+                <label><input type="checkbox" class="topping" value="ללא תוספות">ללא תוספות</label><br>
+            </div>
+            <div class="Conteiner">
+                <h2> כוסות:</h2>
+                <label for="cupWith"> <input type="radio" id="cupWith" name="cupOption" value="with" checked>עם כוסות</label><br>
+                <label for="cupWithout"> <input type="radio" id="cupWithout" name="cupOption" value="without">בלי
+                    כוסות</label><br>
+                <!-- <div class="Conteiner"> -->
+                    <h2> גביעי וופל:</h2>
+                    <label for="gavia"> <input type="radio" id="gavia" name="gaviaOption" value="with" checked>עם
+                        גביעים</label><br>
+                    <label for="nogavia"> <input type="radio" id="nogavia" name="gaviaOption" value="without">בלי
+                        גביעים</label><br>
+                <!-- </div> -->
+            </div>
+            <button id="confirmFlavorsButton">אשר טעמים</button>
+            <button id="confirmFlavorsButton2" >הוסף לסל </button>
+        </div>
+
+    </div>
+
+
+
+    <div id="Footer"></div>
+ 
+    <script src="/jquery-3.2.1.js"></script>
+    <script src="/Header/futer/app.js"></script>
+    <script src="./ShowProduct.js"></script>
+</body>
+
+</html>

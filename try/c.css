@@ -1,0 +1,44 @@
+body {
+  font-family: 'Roboto', sans-serif;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background-color: #f9f9f9;
+}
+
+.product-card {
+  position: relative;
+  display: inline-block;
+}
+
+.product-image {
+  width: 300px; /* גודל התמונה */
+  height: auto;
+  border-radius: 10px; /* פינות עגלגלות */
+}
+
+.add-to-cart-button {
+  position: absolute;
+  top: 10px; /* מיקום מהחלק העליון */
+  right: 10px; /* מיקום מהצד הימני */
+  background-color: #4CAF50; /* צבע רקע */
+  color: white; /* צבע טקסט */
+  border: none;
+  border-radius: 50%; /* עגלגל לחלוטין */
+  width: 40px; /* גודל הכפתור */
+  height: 40px; /* גובה הכפתור */
+  cursor: pointer;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  transition: background-color 0.3s, transform 0.3s;
+}
+
+.add-to-cart-button:hover {
+  background-color: #88f98d; /* צבע כשמרחפים מעל הכפתור */
+}
+
+.add-to-cart-button:active {
+  transform: scale(0.9); /* אנימציה של לחיצה */
+}

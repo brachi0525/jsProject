@@ -1,0 +1,67 @@
+html{
+    direction: rtl;
+   text-align: center;
+/* padding-top: 90px; */
+}
+
+h1{
+    position: absolute;
+    color: rgb(255, 254, 254);
+    margin-top: 70px;
+    font-size:25px;
+    font-weight: bolder;
+    right: 35%;
+    left: 35%;
+}
+#img{
+    width: 100%;
+    position: absolute;
+height: 650px;  
+  right: 0px;
+}
+form{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+   flex-direction: row;
+   gap: 5%;
+   row-gap: 6px;
+   background-color:  white ;
+   opacity: 0.9;
+    position: absolute;
+    /* background-image: url(./מילקשייקים-1024x1024.jpg); */
+border-radius: 50px;
+border: solid none;
+margin-top: 200px;
+height: 400px;
+width: 55%;
+font-size: 30px;
+margin-right: 20%;
+}
+
+.input{
+    border-radius: 30px;
+    height: 40px;
+    width:250px;
+    background: none;
+}
+#tellUs{
+    width: 500px;
+font-size: medium;
+}
+#submit{
+    width: 500px;
+    background-color: black;
+    color: white;
+    height: 50px;
+    border-radius: 30px;
+    font-size: large;
+}
+@media(max-width: 900px){
+  h1{
+    font-size: 20px;
+  }
+    
+    }
+

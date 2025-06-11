@@ -1,0 +1,73 @@
+<div class="options">
+    <div class="Conteiner">
+        <h2>בחר את הרטבים שלך:</h2>
+        <label><input type="checkbox" class="sauce" value="רוטב שוקולד אגוזים">רוטב שוקולד אגוזים</label><br>
+        <label><input type="checkbox" class="sauce" value="רוטב שוקולד לבן">רוטב שוקולד לבן</label><br>
+        <label><input type="checkbox" class="sauce" value="רוטב אוריאו לבן">רוטב אוריאו לבן</label><br>
+        <label><input type="checkbox" class="sauce" value="רוטב בייגלה מלוח">רוטב בייגלה מלוח</label><br>
+        <label><input type="checkbox" class="sauce" value="רוטב פיסטוק שוקולד לבן">רוטב פיסטוק שוקולד לבן</label><br>
+        <label><input type="checkbox" class="sauce" value="ללא רטבים">ללא רטבים</label><br>
+    </div>
+    <div class="Conteiner">
+        <h2>בחר את התוספות שלך:</h2>
+        <label><input type="checkbox" class="topping" value="קצפת">קצפת</label><br>
+        <label><input type="checkbox" class="topping" value="סוכריות צבעוניות">סוכריות צבעוניות</label><br>
+        <label><input type="checkbox" class="topping" value="סוכריות חומות">סוכריות חומות</label><br>
+        <label><input type="checkbox" class="topping" value="ריבת תות">ריבת תות</label><br>
+        <label><input type="checkbox" class="topping" value="ללא תוספות">ללא תוספות</label><br>
+    </div>
+    <div class="Conteiner">
+        <h2> כוסות:</h2>
+        <label for="cupWith"> <input type="radio" id="cupWith" name="cupOption" value="with" checked>עם כוסות</label><br>
+        <label for="cupWithout"> <input type="radio" id="cupWithout" name="cupOption" value="without">בלי כוסות</label><br>
+        <h2> גביעי וופל:</h2>
+        <label for="gavia"> <input type="radio" id="gavia" name="gaviaOption" value="with" checked>עם גביעים</label><br>
+        <label for="nogavia"> <input type="radio" id="nogavia" name="gaviaOption" value="without">בלי גביעים</label><br>
+    </div>
+    <button id="confirmFlavorsButton">אשר טעמים</button>
+    <button id="confirmFlavorsButton2">הוסף לסל </button>
+</div>
+
+<script>
+    const sauceCheckboxes = document.querySelectorAll('.sauce');
+    const toppingCheckboxes = document.querySelectorAll('.topping');
+
+    function limitCheckboxes(checkboxes, limit) {
+        checkboxes.forEach(checkbox => {
+            checkbox.addEventListener('change', () => {
+                const checkedCheckboxes = Array.from(checkboxes).filter(checkbox => checkbox.checked);
+                if (checkedCheckboxes.length > limit) {
+                    checkbox.checked = false;
+                    alert(`אנא בחר עד ${limit} אפשרויות.`);
+                }
+            });
+        });
+    }
+
+    function validateSelections() {
+        const checkedSauces = Array.from(sauceCheckboxes).some(checkbox => checkbox.checked);
+        const checkedToppings = Array.from(toppingCheckboxes).some(checkbox => checkbox.checked);
+
+        if (!checkedSauces) {
+            alert('אנא בחר לפחות רוטב אחד.');
+            return false;
+        }
+
+        if (!checkedToppings) {
+            alert('אנא בחר לפחות תוספת אחת.');
+            return false;
+        }
+
+        return true;
+    }
+
+    document.getElementById('confirmFlavorsButton2').addEventListener('click', (event) => {
+        if (!validateSelections()) {
+            event.preventDefault(); // מונע את ההגשה אם לא נבחרו מספיק אפשרויות
+        }
+    });
+
+    // הגבלת תוספות ורטבים ל-2
+    limitCheckboxes(sauceCheckboxes, 2);
+    limitCheckboxes(toppingCheckboxes, 2);
+</script>
